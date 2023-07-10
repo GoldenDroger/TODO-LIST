@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  
+}
+
+.head{
+  background-color: rgb(37, 37, 123);
+  margin: 10px;
+  border: 2px solid black;
+  color: white;
+
+}
+
+
+.main input{
+  padding: 10px;
+  border: none;
+  margin: 8px 15px;
+  text-align: center;
+  background-color: rgb(32, 28, 28);
+  font-size: large;
+  color: white;
+
+}
+
+
+.btn{
+  padding: 8px 15px;
+  background-color: rgb(94, 235, 84);
+  color: rgb(251, 254, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  cursor: pointer;  
+}
+
+.btn1{
+  padding: 5px 30px;
+  background-color: rgb(202, 30, 30);
+  color: rgb(251, 254, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  cursor: pointer;  
+}
+
+
+.main{
+  background-color: burlywood;
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  /* justify-content: space-around; */
+  margin-bottom: 10px;
+ 
+}
+
+.data{
+  /* background-color: rgb(250, 247, 247); */
+  padding: 0px 30px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  box-shadow: rgba(107, 100, 100, 0.2) 0px 7px 29px 0px;
+}
+
+.field{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
